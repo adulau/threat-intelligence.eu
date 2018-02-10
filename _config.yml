@@ -13,7 +13,7 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Gathering all the open <a href="/standards">standards</a>, tools and <a href="/methodologies">methodologies</a> to support threat intelligence analysts to find supporting standards, documents, methodologies and tools.</p>
+     <p>Supporting threat intelligence analysts in finding the right <a href="/standards">open standards</a>, tools and <a href="/methodologies">methodologies</a>.</p>
 
   header_text_feature_image:
   footer_text: >
