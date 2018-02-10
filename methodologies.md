@@ -15,3 +15,7 @@ toc: true
 # Judgment under Uncertainty: Heuristics and Biases by Amos Tversky; Daniel Kahneman
 
 [Judgment under Uncertainty: Heuristics and Biases ](http://www.foo.be/docs/intelligence/Tversky_Kahneman_1974.pdf) helps analysts to take into account biases in judgements especially when evaluating uncertainty.
+
+# Words of Estimative Probability
+
+[Words of Estimative Probability](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
