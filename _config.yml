@@ -1,21 +1,20 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl: ""
+url: "https://www.threat-intelligence.eu"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: threat-intelligence.eu
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "threat-intelligence.eu is a website providing an exhaustive list of all the open standards, tools and methologies in threat intelligence, analysis or sharing." # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>Gathering all the open <a href="/standards">standards</a>, tools and <a href="/methodologies">methodologies</a> to support threat intelligence analysts to find supporting standards, documents, methodologies and tools.</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -29,7 +28,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "adulau/threat-intelligence.eu"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -39,7 +38,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter:
   wordpress:
   youtube:
 
@@ -74,6 +73,8 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -83,3 +84,5 @@ theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-toc

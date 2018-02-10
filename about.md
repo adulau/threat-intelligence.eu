@@ -2,11 +2,9 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Designing various open source tools in the threat intelligence field (e.g. [MISP](https://www.misp-project.org/), [cve-search](https://www.cve-search.org/)), we couldn't find a simple repository listing with
+all the open standards, documents, methodologies and processes in one place. We decided to aggregate the information in one place called [threat-intelligence.eu](https://www.threat-intelligence.eu).
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+If you want to contribute to the repository, feel free to open an issue or a pull-request on [GitHub repository of threat-intelligence.eu](https://github.com/adulau/threat-intelligence.eu). We accept contributions especially if this is about [open standards](https://fsfe.org/activities/os/def.en.html).
