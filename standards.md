@@ -53,3 +53,9 @@ Sigma is a generic and open signature format that allows you to describe relevan
 
 Sigma development takes place at the following [GitHub repository](https://github.com/Neo23x0/sigma).
 
+# YARA - The pattern matching swiss knife for malware researchers (and everyone else)
+
+YARA is an open pattern-matching format to find textual or binary patterns in binary or stream of binary. Documentation of the YARA format is available at the following location [https://yara.readthedocs.io](https://yara.readthedocs.io).
+
+YARA development takes place at the following [GitHub repository](https://github.com/virustotal/yara).
+
