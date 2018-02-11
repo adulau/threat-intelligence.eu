@@ -47,4 +47,9 @@ STIX Structured Threat Information Expression 2.0 is developed by the CTI TC at 
 
 STIX 2.0 development takes place at [OASIS Cyber Threat Intelligence (CTI) TC](http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti).
 
+# Sigma - Generic Signature Format for SIEM Systems
+
+Sigma is a generic and open signature format that allows you to describe relevant log events in a straight forward manner. Specifications are available at the following location [https://github.com/Neo23x0/sigma/wiki/Specification](https://github.com/Neo23x0/sigma/wiki/Specification).
+
+Sigma development takes place at the following [GitHub repository](https://github.com/Neo23x0/sigma).
 
