@@ -59,3 +59,9 @@ YARA is an open pattern-matching format to find textual or binary patterns in bi
 
 YARA development takes place at the following [GitHub repository](https://github.com/virustotal/yara).
 
+# GENE - Go Evtx sigNature Engine
+
+GENE is an open format to match Windows Event Logs (EVTX).
+
+GENE development takes place at the following [GitHub repository](https://github.com/0xrawsec/gene).
+
