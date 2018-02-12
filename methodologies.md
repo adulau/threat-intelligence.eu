@@ -19,3 +19,7 @@ toc: true
 # Words of Estimative Probability
 
 [Words of Estimative Probability](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
+
+# The Diamond Model of Intrusion Analysis by Sergio Caltagirone, Andrew Pendergast, and Christopher Betz.
+
+[The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf) presents a novel model of intrusion analysis built by analysts, derived from years of experience, asking the simple question, “What is the underlying method to our work?” The model establishes the basic atomic element of any intrusion activity, the event, composed of four core features: adversary, infrastructure, capability, and victim.
