@@ -16,6 +16,15 @@ toc: true
 
 [Judgment under Uncertainty: Heuristics and Biases ](http://www.foo.be/docs/intelligence/Tversky_Kahneman_1974.pdf) helps analysts to take into account biases in judgements especially when evaluating uncertainty.
 
+## The Admiralty Scale (also called the NATO System)
+
+The Admiralty Scale (also called the NATO System) is used to rank the reliability of a source and the credibility of an information.
+
+_The Admiralty Code is a relatively simple scheme for categorising evidence according to its credibility. It was initially used by the British Admiralty for the assessment of evidence used in naval intelligence, but it is now used in many police departments, intelligence agencies and defense-related organisations, including the US Army (US Army Field Manual 2-22.3, 2006)_ ref: [The Admiralty Code:
+A Cognitive Tool for Self-Directed Learning](https://www.ijlter.org/index.php/ijlter/article/download/494/234)
+
+A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomies.html#_admiralty_scale) proposes an applied model to tag information in threat intelligence platform.
+
 # Words of Estimative Probability
 
 [Words of Estimative Probability](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
