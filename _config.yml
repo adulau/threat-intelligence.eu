@@ -86,3 +86,4 @@ exclude:
   - Gemfile.lock
 plugins:
   - jekyll-toc
+  - jekyll-sitemap
