@@ -33,11 +33,7 @@ A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomi
 
 ## Cyber Threat Framework by Office of the Director of National Intelligence
 
-_The Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
-
-The Cyber Threat Framework is applicable to anyone who works cyber-related activities, its principle benefit being that it provides a common language for describing and communicating information about cyber threat activity.
-
-The framework and its associated lexicon provide a means for consistently describing cyber threat activity in a manner that enables efficient information sharing and cyber threat analysis, that is useful to both senior policy/decision makers and detail oriented cyber technicians alike._ ref: [Cyber Threat Framework ](https://www.dni.gov/index.php/cyber-threat-framework)
+_The Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.  The Cyber Threat Framework is applicable to anyone who works cyber-related activities, its principle benefit being that it provides a common language for describing and communicating information about cyber threat activity.  The framework and its associated lexicon provide a means for consistently describing cyber threat activity in a manner that enables efficient information sharing and cyber threat analysis, that is useful to both senior policy/decision makers and detail oriented cyber technicians alike._ ref: [Cyber Threat Framework ](https://www.dni.gov/index.php/cyber-threat-framework)
 
 A MISP taxonomy called ['cyber-threat-framework'](https://www.misp-project.org/taxonomies.html#_cyber_threat_framework) proposes an applied model to tag information in threat intelligence platform.
 
