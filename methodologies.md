@@ -31,6 +31,16 @@ A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomi
 
 # Model of Intrusion and Attack Analysis
 
+## Cyber Threat Framework by Office of the Director of National Intelligence
+
+_The Cyber Threat Framework was developed by the US Government to enable consistent characterization and categorization of cyber threat events, and to identify trends or changes in the activities of cyber adversaries.
+
+The Cyber Threat Framework is applicable to anyone who works cyber-related activities, its principle benefit being that it provides a common language for describing and communicating information about cyber threat activity.
+
+The framework and its associated lexicon provide a means for consistently describing cyber threat activity in a manner that enables efficient information sharing and cyber threat analysis, that is useful to both senior policy/decision makers and detail oriented cyber technicians alike._ ref: [Cyber Threat Framework ](https://www.dni.gov/index.php/cyber-threat-framework)
+
+A MISP taxonomy called ['cyber-threat-framework'](https://www.misp-project.org/taxonomies.html#_cyber_threat_framework) proposes an applied model to tag information in threat intelligence platform.
+
 ## The Diamond Model of Intrusion Analysis by Sergio Caltagirone, Andrew Pendergast, and Christopher Betz.
 
 [The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf) presents a novel model of intrusion analysis built by analysts, derived from years of experience, asking the simple question, “What is the underlying method to our work?” The model establishes the basic atomic element of any intrusion activity, the event, composed of four core features: adversary, infrastructure, capability, and victim. A MISP taxonomy called ['diamond-model'](https://www.misp-project.org/taxonomies.html#_diamond_model) proposes an applied model to tag information in threat intelligence platform.
