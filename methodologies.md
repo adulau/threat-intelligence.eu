@@ -29,6 +29,10 @@ A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomi
 
 [Words of Estimative Probability](https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/books-and-monographs/sherman-kent-and-the-board-of-national-estimates-collected-essays/6words.html) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
 
+## Expressing Confidence In Analytic Judgments
+
+[In JP 2-0, Joint Intelligence](http://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp2_0.pdf) (page 114) includes an appendix to express confidence in analytic judgments. This has been included in a MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) where these analytic judgments can be used in threat intelligence platform to directly express the confidence level on the information tagged.
+
 # Model of Intrusion and Attack Analysis
 
 ## Cyber Threat Framework by Office of the Director of National Intelligence
