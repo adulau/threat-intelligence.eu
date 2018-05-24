@@ -50,3 +50,9 @@ A MISP taxonomy called ['cyber-threat-framework'](https://www.misp-project.org/t
 _Using a kill chain model to describe phases of intrusions, mapping adversary kill chain indicators to defender courses of action, identifying patterns that link individual intrusions into broader campaigns, and understanding the iterative nature of intelligence gathering form the basis of intelligence-driven computer network defense (CND)._ ref: [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
 
 A MISP taxonomy called ['kill-chain'](https://www.misp-project.org/taxonomies.html#_kill_chain) proposes an applied model to tag information in threat intelligence platform.
+
+## MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK)
+
+_MITRE’s Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK™) is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. ATT&CK is useful for understanding security risk against known adversary behavior, for planning security improvements, and verifying defenses work as expected._ ref [Adversarial Tactics, Techniques & Common Knowledge](https://attack.mitre.org)
+
+MISP implements the complete set of ATT&CK as [galaxy](https://www.misp-project.org/galaxy.html).
