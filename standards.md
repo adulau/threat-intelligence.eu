@@ -10,12 +10,12 @@ toc: true
 
 # MISP Threat Sharing Standard
 
-The MISP project developed a set of standards for threat intelligence sharing, including a list of IETF Internet-Drafts:
+The [MISP project developed a set of standards](https://www.misp-standard.org/) for threat intelligence sharing, including a list of IETF Internet-Drafts:
 
-- _MISP core format_ which describes the core JSON format of MISP. Current Internet-Draft: [03](https://tools.ietf.org/html/draft-dulaunoy-misp-core-format)
-- _MISP taxonomy format_ which describes the taxonomy JSON format of MISP. Current Internet-Draft: [04](https://tools.ietf.org/html/draft-dulaunoy-misp-taxonomy-format)
+- _MISP core format_ which describes the core JSON format of MISP. Current Internet-Draft: [15](https://tools.ietf.org/html/draft-dulaunoy-misp-core-format)
+- _MISP taxonomy format_ which describes the taxonomy JSON format of MISP. Current Internet-Draft: [07](https://tools.ietf.org/html/draft-dulaunoy-misp-taxonomy-format)
 - _MISP galaxy format_ which describes the [galaxy](https://github.com/MISP/misp-galaxy) template format used to expand the threat actor modelling of MISP. Current Internet-Draft: [00](https://datatracker.ietf.org/doc/draft-dulaunoy-misp-galaxy-format/)
-- _MISP object template format_ which describes the [object](https://github.com/MISP/misp-objects) template format used to construct combined and composite objects for the MISP core format. Current Internet-Draft: [00](https://datatracker.ietf.org/doc/draft-dulaunoy-misp-object-template-format/)
+- _MISP object template format_ which describes the [object](https://github.com/MISP/misp-objects) template format used to construct combined and composite objects for the MISP core format. Current Internet-Draft: [07](https://datatracker.ietf.org/doc/draft-dulaunoy-misp-object-template-format/)
 
 In addition to standards, the MISP project maintains a list of [taxonomies](https://www.misp-project.org/taxonomies.html), warning-list, [objects templates](https://www.misp-project.org/objects.html) and [galaxy clusters](https://www.misp-project.org/galaxy.html) to support analysts.
 
