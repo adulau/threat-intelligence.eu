@@ -8,11 +8,15 @@ toc: true
 
 {:toc}
 
-# Psychology of Intelligence Analysis by Richard J. Heuer, Jr.
+# General methodologies for intelligence analysis
+
+## Psychology of Intelligence Analysis by Richard J. Heuer, Jr.
 
 [Psychology of Intelligence Analysis by Richard J. Heuer, Jr. PDF](http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf) \[[epub](files/Psychology_of_Intelligence_Analysis_Richards_Heuer.epub)\] provides insight for intelligence analysts, practitioners and academics to improve analysis at large.
 
-# Judgment under Uncertainty: Heuristics and Biases by Amos Tversky; Daniel Kahneman
+# Analytical judgments and estimative analysis
+
+## Judgment under Uncertainty: Heuristics and Biases by Amos Tversky; Daniel Kahneman
 
 [Judgment under Uncertainty: Heuristics and Biases ](http://www.foo.be/docs/intelligence/Tversky_Kahneman_1974.pdf) helps analysts to take into account biases in judgements especially when evaluating uncertainty.
 
@@ -27,7 +31,7 @@ A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomi
 
 ![The Admiralty Code for evaluating the credibility of evidence](/assets/img/credibility-of-evidence.png)
 
-# Words of Estimative Probability
+## Words of Estimative Probability
 
 [Words of Estimative Probability](https://www.cia.gov/static/0aae8f84700a256abf63f7aad73b0a7d/Words-of-Estimative-Probability.pdf) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
 
@@ -60,3 +64,9 @@ A MISP taxonomy called ['kill-chain'](https://www.misp-project.org/taxonomies.ht
 _MITRE’s Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK™) is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. ATT&CK is useful for understanding security risk against known adversary behavior, for planning security improvements, and verifying defenses work as expected._ ref [Adversarial Tactics, Techniques & Common Knowledge](https://attack.mitre.org)
 
 MISP implements the complete set of ATT&CK as [galaxy](https://www.misp-project.org/galaxy.html).
+
+# Process and framework to support threat intelligence analysis
+
+## CSAE (Collect, Store, Analyze and Engage) - A Comprehensive Data Science Framework and Case Study for Investigating Organized Crime and Serving the Public Interest
+
+Towards Data Scientific Investigations - [A Comprehensive Data Science Framework and Case Study for Investigating Organized Crime and Serving the Public Interest](https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/1/670/files/2021/03/White-Paper-Towards-Data-Scientific-Investigations.pdf) by Erik van de Sandt, Arthur van Bunningen, Jarmo van Lenthe, John Fokker.
