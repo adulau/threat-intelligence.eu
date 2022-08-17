@@ -25,6 +25,8 @@ A Cognitive Tool for Self-Directed Learning](https://www.ijlter.org/index.php/ij
 
 A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomies.html#_admiralty_scale) proposes an applied model to tag information in threat intelligence platform.
 
+![The Admiralty Code for evaluating the credibility of evidence](/assets/img/credibility-of-evidence.png)
+
 # Words of Estimative Probability
 
 [Words of Estimative Probability](https://www.cia.gov/static/0aae8f84700a256abf63f7aad73b0a7d/Words-of-Estimative-Probability.pdf) proposes clear words when estimating probability. A MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) proposes an applied model to tag information in threat intelligence platform.
