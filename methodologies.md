@@ -31,7 +31,7 @@ A MISP taxonomy called ['admiralty-scale'](https://www.misp-project.org/taxonomi
 
 ## Expressing Confidence In Analytic Judgments
 
-[In JP 2-0, Joint Intelligence](http://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/jp2_0.pdf) (page 114) includes an appendix to express confidence in analytic judgments. This has been included in a MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) where these analytic judgments can be used in threat intelligence platform to directly express the confidence level on the information tagged.
+[In JP 2-0, Joint Intelligence](https://irp.fas.org/doddir/dod/jp2_0.pdf) (page 114 - Appendix A) includes an appendix to express confidence in analytic judgments. This has been included in a MISP taxonomy called ['estimative-language'](https://www.misp-project.org/taxonomies.html#_estimative_language) where these analytic judgments can be used in threat intelligence platform to directly express the confidence level on the information tagged.
 
 # Model of Intrusion and Attack Analysis
 
