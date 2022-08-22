@@ -12,7 +12,7 @@ toc: true
 
 ## Psychology of Intelligence Analysis by Richard J. Heuer, Jr.
 
-[Psychology of Intelligence Analysis by Richard J. Heuer, Jr. PDF](http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf) \[[epub](files/Psychology_of_Intelligence_Analysis_Richards_Heuer.epub)\] provides insight for intelligence analysts, practitioners and academics to improve analysis at large.
+[Psychology of Intelligence Analysis by Richard J. Heuer, Jr. PDF](http://www.foo.be/docs/intelligence/PsychofIntelNew.pdf) \[[epub](/files/Psychology_of_Intelligence_Analysis_Richards_Heuer.epub)\] provides insight for intelligence analysts, practitioners and academics to improve analysis at large.
 
 # Analytical judgments and estimative analysis
 
