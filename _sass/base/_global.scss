@@ -25,7 +25,9 @@ body {
   color: $text-color;
   font-family: $font-family-main;
   font-size: $font-size;
-  word-wrap: break-word;
+  text-justify: auto;
+  text-justify: auto;
+//  word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headings;
