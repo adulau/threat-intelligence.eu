@@ -115,11 +115,11 @@ This model maps phases of adversary intrusions to defender actions, linking indi
 
 It is widely used to:  
 
-- Assess security risks based on known adversary behavior  
-- Plan and prioritize defensive improvements  
-- Validate the effectiveness of security controls  
+- Assess security risks based on known adversary behavior
+- Plan and prioritize defensive improvements
+- Validate the effectiveness of security controls
 
-- MISP includes the full ATT&CK dataset as a [galaxy](https://www.misp-project.org/galaxy.html).
+- MISP includes the full ATT&CK dataset as a [galaxy](https://www.misp-project.org/galaxy.html) also easily searchable at [https://misp-galaxy.org/](https://misp-galaxy.org/).
 
 ---
 
