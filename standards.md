@@ -18,7 +18,7 @@ Below is a non-exhaustive list of widely adopted initiatives.
 
 # MISP Threat Sharing Standard
 
-The [MISP project](https://www.misp-project.org/) has developed a set of standards for threat intelligence sharing, documented as [Internet-Drafts](https://www.misp-standard.org/):
+The [MISP project](https://www.misp-project.org/) has developed a set of standards for threat intelligence sharing, documented as [Standards](https://www.misp-standard.org/) under the [MISP Standard](https://www.misp-standard.org/) umbrella:
 
 - **MISP core format** — defines the core JSON format of MISP. [https://www.misp-standard.org/rfc/misp-standard-core.html](https://www.misp-standard.org/rfc/misp-standard-core.html)
 - **MISP taxonomy format** — defines the taxonomy JSON format of MISP. [https://www.misp-standard.org/rfc/misp-standard-taxonomy-format.html](https://www.misp-standard.org/rfc/misp-standard-taxonomy-format.html)
