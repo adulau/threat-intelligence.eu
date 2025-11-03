@@ -51,14 +51,6 @@ IDMEF (Intrusion Detection Message Exchange Format) is specified in [RFC 4765](h
 
 ---
 
-# OpenTPX — Open Threat Partner Exchange
-
-OpenTPX (Open Threat Partner Exchange) is a JSON format designed to exchange machine-readable threat intelligence along with network security-related information.  
-
-Development takes place at the [opentpx GitHub repository](https://github.com/Lookingglass/opentpx/).
-
----
-
 # STIX — Structured Threat Information eXpression (1.1 and 1.2)
 
 STIX was originally developed by MITRE. Version 1.2 was released in 2014, with specifications available here:  
