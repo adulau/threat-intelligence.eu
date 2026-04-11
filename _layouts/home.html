@@ -10,6 +10,13 @@ layout: default
   </div>
   {% endif %}
 
+
+  {% if content and content != "" %}
+  <div class="home-intro">
+    {{ content }}
+  </div>
+  {% endif %}
+
   <div class="posts">
     {% for post in paginator.pages %}
     <div class="post-teaser">
