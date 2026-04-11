@@ -16,21 +16,27 @@
 }
 // Buttons
 .button {
-  border-radius: 0.3em;
-  border: 1px solid;
+  border-radius: 0.6em;
+  border: 1px solid transparent;
+  background: #0f766e;
+  color: #fff;
+  font-weight: 600;
   display: inline-block;
   margin: 1em 0;
-  padding: 0.5em 0.75em;
+  padding: 0.55em 0.95em;
+  transition: transform 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
 }
 a.button {
   @extend .button-link;
 }
 .button-link {
   &:hover {
-    background: $link-color;
-    border: 1px solid $link-color;
-    color: $background-color;
+    background: darken($link-color, 8%);
+    border: 1px solid transparent;
+    box-shadow: 0 10px 24px -12px rgba(15, 23, 42, 0.6);
+    color: #fff;
     text-decoration: none;
+    transform: translateY(-1px);
   }
 }
 .body-link {

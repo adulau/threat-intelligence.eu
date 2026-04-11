@@ -1,7 +1,7 @@
 // Typography
-$font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
-$font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
-$font-size: 1.10em !default;
+$font-family-main: 'Inter', 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
+$font-family-headings: 'Inter', 'Source Sans Pro', Helvetica, Arial, sans-serif !default;
+$font-size: 1.05rem !default;
 
 // Padding
 $padding-large: 20% !default;
@@ -10,28 +10,28 @@ $padding-x-small: 3% !default;
 
 // Brand colours
 $brand-color: #fff !default;
-$background-color: #fff !default;
-$border-color: rgba(0, 0, 0, 0.1) !default; // rgba recommended if using feature images
+$background-color: #f4f7fb !default;
+$border-color: rgba(15, 23, 42, 0.14) !default; // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838 !default;
-$link-color: #1ABC9C !default;
-$selection-color: #D4D4D4 !default; // visible when highlighting text
+$text-color: #1f2937 !default;
+$link-color: #0f766e !default;
+$selection-color: #bfdbfe !default; // visible when highlighting text
 
 // Tags color
 $tags-color: #b0b0b0 !default;
 
 //Search color
-$search-color: #999 !default;
+$search-color: #64748b !default;
 
 // Header colours
-$header-link-color: #383838 !default;
+$header-link-color: #1e293b !default;
 
 // Feature image for articles
 $feature-image-text-color: #fff !default;
 $feature-image-size: cover !default; // options include "cover", "contain", "auto"
 
 // Header description box
-$header-desc-background-color: #1ABC9C !default;
+$header-desc-background-color: #0f766e !default;
 $header-desc-text-color: #FFF !default;
 $header-desc-link-color: #02453D !default;

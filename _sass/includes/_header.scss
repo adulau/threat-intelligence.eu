@@ -1,10 +1,14 @@
 .site-header {
   @extend %padding-small;
-  background: $brand-color;
-  border-bottom: 1px solid $border-color;
+  background: rgba($brand-color, 0.9);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
   display: inline-block;
   float: left;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
 
   a {
     color: $header-link-color;
@@ -27,6 +31,16 @@
   }
 
   .site-nav {
+    .page-link {
+      font-weight: 600;
+      font-size: 0.95em;
+      padding: 0.2rem 0;
+      border-bottom: 2px solid transparent;
+      &:hover {
+        color: $link-color;
+        border-bottom-color: rgba($link-color, 0.45);
+      }
+    }
     ul {
       margin: 0;
       padding: 0;
@@ -34,11 +48,15 @@
       line-height: 1.5;
       float: right;
       text-align: right;
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      flex-wrap: wrap;
     }
     li {
-      display: inline;
+      display: inline-flex;
       float: left;
-      margin-right: 0.4em;
+      margin-right: 0;
     }
     @media (max-width: 1100px) {
       ul {
@@ -53,9 +71,11 @@
 
     /* --- Search form --- */
     form {
-        border: 0;
-        border-bottom: 2px solid $search-color;
+        border: 1px solid rgba(100, 116, 139, 0.32);
+        border-radius: 999px;
+        padding: 0.1rem 0.45rem;
         outline: 0;
+        background: #ffffff;
 
         *:focus {
             outline: none;
@@ -67,6 +87,7 @@
                 border: 0;
                 outline: 0;
                 color: $search-color;
+                min-width: 8.25rem;
             }
 
             &::-moz-placeholder {

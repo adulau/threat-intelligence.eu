@@ -3,11 +3,12 @@
   @extend %padding-regular;
   display: inline-block;
   width: 100%;
-  background-color:$header-desc-background-color;
+  background: linear-gradient(135deg, $header-desc-background-color 0%, #115e59 100%);
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+  border-radius: 0 0 14px 14px;
 }
 .call-out p:last-child {
   margin-bottom: 0;
@@ -17,13 +18,24 @@
 }
 // Post listing
 .posts {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem 0;
   .post-teaser {
     @extend %padding-regular;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 1rem;
+    background: #fff;
+    box-shadow: 0 16px 40px -34px rgba(15, 23, 42, 0.8);
+    transition: transform 170ms ease, box-shadow 170ms ease;
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 45px -28px rgba(15, 23, 42, 0.55);
+    }
     p a {
       @extend .body-link;
     }
@@ -31,6 +43,12 @@
   .excerpt {
     margin-top: 1em;
   }
+}
+.featured-quote {
+  @extend %padding-regular;
+  color: #334155;
+  text-align: center;
+  font-size: 0.96em;
 }
 // Pagination
 .pagination .button {

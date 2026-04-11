@@ -9,6 +9,8 @@ article,
   width: 100%;
 }
 article {
+  max-width: 850px;
+  margin: 0 auto;
   .subtitle {
     font-size: 1.45em;
     font-weight: normal;
@@ -17,6 +19,9 @@ article {
   header {
     margin-bottom: 6%;
     text-align: center;
+  }
+  .post-content {
+    font-size: 1.04rem;
   }
   a {
     @extend .body-link;
