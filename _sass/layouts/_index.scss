@@ -1,20 +1,24 @@
 // Header text feature
 .call-out {
   @extend %padding-regular;
-  display: inline-block;
+  display: block;
   width: 100%;
   background: linear-gradient(135deg, $header-desc-background-color 0%, #115e59 100%);
   background-size: cover;
   font-size: 1.2em;
   text-align: center;
-  color: $header-desc-text-color;
+  color: #0f172a;
   border-radius: 0 0 14px 14px;
+  overflow-wrap: break-word;
+}
+.call-out p {
+  margin: 0;
 }
 .call-out p:last-child {
   margin-bottom: 0;
 }
 .call-out a {
-  color: $header-desc-link-color
+  color: #0f766e;
 }
 // Post listing
 .posts {
