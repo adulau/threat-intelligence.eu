@@ -68,3 +68,21 @@
     padding: $padding-small;
   }
 }
+
+.home-intro {
+  @extend %padding-regular;
+  margin-top: 1rem;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 16px 40px -34px rgba(15, 23, 42, 0.8);
+
+  h2,
+  h3 {
+    margin-top: 0;
+  }
+
+  ul {
+    margin-bottom: 1rem;
+  }
+}
