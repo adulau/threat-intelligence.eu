@@ -6,5 +6,12 @@ layout: default
     <h1 class="title">{{ page.feature-title | default: page.title }}</h1>
     {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
   </header>
-  <section class="post-content">{{ content | toc}}</section>
+  <button class="toc-toggle" type="button" aria-controls="toc-sidebar" aria-expanded="true">Hide menu</button>
+  <div class="content-layout with-toc" data-toc-layout>
+    <aside id="toc-sidebar" class="toc-sidebar" aria-label="Table of contents">
+      <h2 class="toc-title">Contents</h2>
+      <nav class="toc-nav" data-toc-container></nav>
+    </aside>
+    <section class="post-content" data-toc-content>{{ content }}</section>
+  </div>
 </article>
